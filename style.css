@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+ outline: none;
+    border: none;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    color: white;
+}
+@keyframes animation { 
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+
+}
+#btn2{
+    background-color: cyan;
+    padding: 11px;
+    border-radius: 50px;
+    position: absolute;
+    top: 49%;
+    left: 55%;
+    outline: none;
+    border: none;
+    margin-top:3px ;
+    font-size: 15px;
+    color: white;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+    position: absolute;
+}
+#showColor{
+    font-size: 30px;
+    font-family: Courier, monospace;
+    position: absolute;
+    left: 47%;
+    top: 35%;
+}
+@media screen and ( max-width:500px){
+    #div{
+    display: none;
+    }
+}
